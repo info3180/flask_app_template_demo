@@ -62,15 +62,6 @@ Now, you can run the application locally.
 
     python run.py
 
-OR
-
-    foreman start
-
-
-You can also specify what port you'd prefer to use.
-
-    foreman start -p 5555
-
 
 Deploying
 ---------
