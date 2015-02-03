@@ -17,13 +17,13 @@ from flask import render_template, request, redirect, url_for
 @app.route('/')
 def home():
     """Render website's home page."""
-    return render_template('home.html')
+    return render_template('home.html',name="Home")
 
 
 @app.route('/about/')
 def about():
     """Render the website's about page."""
-    return render_template('about.html')
+    return render_template('about.html',name="About")
 
 
 ###
